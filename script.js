@@ -1,28 +1,16 @@
-const main = document.getElementById('add_car');
-const addModelBtn = document.getElementById('model_name');
-const availableModelsBtn = document.getElementById('available_models');
+const main = document.getElementById('main');
+const addUserBtn = document.getElementById('add_user');
+const doubleBtn = document.getElementById('double');
+const showMillionairesBtn = document.getElementById('show_millionaires');
 const sortBtn = document.getElementById('sort');
-const calculatePowerBtn = document.getElementById('calculate_power');
+const calculatePowerBtn = document.getElementById('calculate_wealth');
 
 
 let data = [];
 
-//fetch random models and add power ratings
+//fetch random users and add money
 
-function getRandomModel() {
-    fetch('https://api-ninjas.com/api/cars');
+function getRandomUser() {
+    fetch('https://randomuser.me/api');
 
 }
-// var model = 'volkswagen'                                          
-// $.ajax({
-//     method: 'GET',
-//     url: 'https://api.api-ninjas.com/v1/cars?model=' + model,
-//     headers: { 'X-Api-Key': 'YOUR_API_KEY'},
-//     contentType: 'application/json',
-//     success: function(result) {
-//         console.log(result);
-//     },
-//     error: function ajaxError(jqXHR) {
-//         console.error('Error: ', jqXHR.responseText);
-//     }
-// });
