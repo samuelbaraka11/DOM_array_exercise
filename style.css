@@ -1,10 +1,8 @@
 * {
 box-sizing:border-box;
-
 }
 
 body{
-
     background: #C0B1AD;
     font-family: arial;
     display: flex;
@@ -12,7 +10,6 @@ body{
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    
 }
 
 .container {
@@ -27,8 +24,8 @@ aside{
     padding: 10px 20px;
     width: 250px;
     border-right: 1px solid #111;
-    
 }
+
 button {
 cursor: pointer;
 background-color: #fff;
@@ -45,7 +42,6 @@ font-size: 15px;
 main{
 flex: 1;
 padding: 10px 20px;
-
 }
 
 h2{
@@ -73,5 +69,4 @@ h3{
     justify-content: space-between;
     font-size: 20px;
     margin-bottom: 5px;
-
 }
